@@ -3,11 +3,6 @@ class livro{
     private $titulo;
     private $autor;
     private $paginas;
-    public function construct($titulo, $autor, $paginas){
-        $this->titulo = $titulo;
-        $this->autor = $autor;
-        $this->paginas = $paginas;
-    }
      public function __construct($titulo, $autor, $paginas) {
         $this->titulo = $titulo;
         $this->autor = $autor;
